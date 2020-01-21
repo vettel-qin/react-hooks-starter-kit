@@ -1,0 +1,23 @@
+.pastdue {
+  width: rem(390);
+  height: rem(370);
+  margin: rem(110) auto rem(68);
+  background: url('./img/pastdue.png') no-repeat;
+  background-size: cover;
+}
+
+.text {
+  text-align: center;
+  color: #a8b3d5;
+  font-size: rem(34);
+}
+
+.logo {
+  bottom: rem(100);
+  width: 100%;
+  height: rem(34);
+  margin: rem(100) 0;
+  background: url('./img/logo.png') no-repeat;
+  background-position: center;
+  background-size: contain;
+}

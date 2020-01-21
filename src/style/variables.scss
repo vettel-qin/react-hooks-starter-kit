@@ -1,0 +1,14 @@
+/**
+ * BY-Health Front-end Team (https://www.by-health.com/)
+ *
+ * Copyright © 2017-present By-Health Co Ltd. All rights reserved.
+ */
+$base-font-size: 37.5px !default;
+
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+@function rem($pixel, $font-size: $base-font-size) {
+  @return strip-unit($pixel) / strip-unit($font-size) * 1rem;
+}

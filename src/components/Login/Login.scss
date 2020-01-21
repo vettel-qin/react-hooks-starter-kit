@@ -1,0 +1,45 @@
+.login {
+  padding-top: rem(125px);
+}
+
+.inputGroup {
+  display: flex;
+  margin: 0 rem(18px) rem(30px);
+}
+
+.input {
+  width: 100%;
+  padding: rem(20px) rem(28px);
+  color: #6f2409;
+  border: 1px solid #d49e87;
+  border-radius: rem(15px);
+  outline: 0;
+  font-size: rem(28px);
+  background-color: #fff4e1;
+}
+
+.captcha {
+  width: rem(420px);
+  margin-left: rem(18px);
+  padding: 0;
+  transition: all 0.2s ease;
+  color: #6f2409;
+  border: 0;
+  border-radius: rem(37.5px);
+  outline: 0;
+  background: #ffd871;
+  font-size: rem(28px);
+
+  &:disabled {
+    color: #6f6865;
+    background: #fbe6af;
+  }
+}
+
+.errorMsg {
+  height: rem(37.5px);
+  margin: 0 rem(18px);
+  text-align: left;
+  word-break: break-all;
+  color: #f1275b;
+}
